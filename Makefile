@@ -9,7 +9,9 @@ PNG := \
 TXT2PNG := \
 	convert -background black -fill white \
 	-font DejaVu-Sans-Mono -pointsize 16 \
-	-trim +repage -posterize 2
+	-trim +repage \
+	-posterize 2 \
+	-strip
 
 all: $(PNG)
 
