@@ -4,6 +4,7 @@ PNG := \
 	github.png \
 	gitlab.png \
 	localhost.png \
+	user-laptop.png \
 	#
 
 TXT2PNG := \
